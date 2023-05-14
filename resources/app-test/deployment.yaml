@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hpa-app-test
-        image: k8s.gcr.io/hpa-example
+        image: registry.k8s.io/hpa-example
         ports:
         - containerPort: 80
         resources:
